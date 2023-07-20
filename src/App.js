@@ -25,17 +25,17 @@ function App(){
             <h1 className="has-text-centered pt-3">Piezas en Venta</h1>
             <div className="container">
                 <div className="section">
-                    <div className="columns is-align-items-flex-end ">
+                    <div className="columns is-justify-content-center is-align-items-flex-end ">
                         <div className="column is-3">
                             <ProfileCard titulo="Nvidia RTX 4080" descripcion="Tarjeta de video con el chipset de nvidia 4080 por ASUS" img={GPUImg}/>
                         </div>
-                        <div className="column is-3">
+                        <div className="column is-3 is-offset-1">
                             <ProfileCard titulo="Ryzen 5800x" descripcion="CPU de 4ta generacion creado por AMD " img={CPUImg}/>
                         </div>
-                        <div className="column is-3">
+                        <div className="column is-3 is-offset-1">
                             <ProfileCard titulo="Asus ROG Strix X570" descripcion="Motherboard AM4 para instalar las piezas" img={BOARDImg}/>
                         </div>
-                        <div className="column is-3">
+                        <div className="column is-3 is-offset-1">
                             <ProfileCard titulo="Corsair VENGEANCE DDR4 32GB" descripcion="Memoria RAM para utilizar junto con el motherboard" img={RAMImg}/>
                         </div>
                     </div>
